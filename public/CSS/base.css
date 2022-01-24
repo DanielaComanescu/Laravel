@@ -1,0 +1,150 @@
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh; /*body prend toute la page */
+  margin: 0;
+  padding: 0;
+
+}
+
+  header {
+    min-height: 10vh;
+    margin:0px;
+    padding: 1vh;
+    background-color: #259ca8;
+
+  }
+
+  .parent, .parentFoot {
+
+    padding: 7px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .anonymous, .allUsers {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+  }
+
+
+  .parent a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+  
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  footer {
+  min-height: 1vh;
+  margin:0px;
+  padding: 1vh;
+  background-color: cornsilk;
+  }
+
+  /* menu deroulant (profil et se deconnecter) */
+
+  .monCompte{
+    color: white;
+    width: 130px;
+  }
+
+  #menu-button {
+    position:absolute;
+    top:0;
+    right:0;
+    width:50px;
+    height:75px;
+    overflow:hidden;
+    background: #259ca8;
+    color: #fff;
+    text-align:center;
+    cursor:pointer;
+    font-size:50px;
+    transition:all .5s;
+  }
+
+  #menu-button::after{
+    content:'×';
+  }
+
+  #menu-button.close{
+    color:#fff;
+    background: #259ca8;
+  }
+
+  #menu-button.close::after{
+    content:'≡';
+  }
+
+  #two{
+    transform:translateY(-16px);
+  }
+  
+  #two.show-menu{
+    transition:transform .5s;
+    position:absolute;
+    width:100%;
+    max-width:400px;
+    transform:translateY(-300px);
+  
+  }
+
+  .connexion {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .connectedUser {
+    width: 200px;
+  }
+
+  ul,li{
+    display:block;
+  }
+  
+  li{
+    height:50px;
+    line-height:50px;
+    padding:0 12px;
+    border-bottom:1px solid #777;
+    background: #259ca8;
+  }
+  
+  /* fin menu deroulant (profil et se deconnecter) */
+
+  #facebook, #instagram {
+    width: 37px;
+    height: 37px;
+  }
+
+  #contactUs {
+    width: 35px;
+    height: 35px;
+  }
+

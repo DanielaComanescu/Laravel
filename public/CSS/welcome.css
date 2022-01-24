@@ -1,0 +1,62 @@
+
+.pgWelcome {
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fond {
+  
+ 
+    /* Préserve le ratio de l'image */
+    height: 800px;
+    width: 1450px;
+    filter: brightness(50%);
+      -webkit-filter: brightness(80%);
+      -moz-filter: brightness(50%);
+      -o-filter: brightness(50%);
+      -ms-filter: brightness(50%);
+    opacity: 0.7;
+  }
+
+  .text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+  
+  }
+
+  .text2 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-10%, -160%);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .textLink a {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-10%, -160%);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+  }
+
+  a {
+    color: #259ca8; 
+    font-weight: bold;
+    font-size: 20px;
+ }

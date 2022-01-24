@@ -1,0 +1,56 @@
+.pgPrices {
+    min-height: 91vh;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-stretch: 100%;
+}
+
+.left {
+    min-height: 91vh;
+    width: 60%;
+}
+
+.right {
+    min-height: 91vh;
+    width: 40%;
+}
+
+#pool {
+    height: 400px;
+    width: 700px;
+}
+
+#orar {
+    height: 55px;
+}
+
+.orar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.pColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#cost {
+    height: 60px;
+}
+
+.big {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+a {
+    color: #259ca8; 
+    font-weight: bold;
+    font-size: 20px;
+ }
