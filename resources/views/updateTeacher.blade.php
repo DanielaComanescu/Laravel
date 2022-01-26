@@ -41,16 +41,6 @@
                 </div>
            
             <br>
-
-                <div class="delete">
-                    <p> Do you want to delete this account ?</p>
-                        <div class="btn">
-                            <form action="/deleteTeacher/{{ $teacher->id }}" method="POST">
-                            @csrf
-                                <button type="submit" class="btn btn-primary"> Delete</button>
-                            </form>
-                        </div>
-                </div>
             </form>
     </div>
 </div>

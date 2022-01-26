@@ -22,6 +22,7 @@ Route::get('/price', [NavController::class, 'priceAndCalendar']);
 
 Route::get('/lessons', [NavController::class, 'swimLessons']);
 
+
 Route::get('/connexion', [NavController::class, 'connexion'])->middleware('guest')->name('login');
 
 Route::post('/connexionForm', [ConnexionController::class, 'authenticate'])->middleware('guest');
@@ -38,7 +39,8 @@ Route::get('/update/{id}', [Navcontroller::class, 'updateData']);
 
 Route::post('/updatePOST/{id}', [ConnexionController::class, 'saveChanges']);
 
-Route::post('/delete/{id}', [ConnexionController::class, 'deleteMethod']);
+Route::get('/delete/{id}', [ConnexionController::class, 'deleteMethod']);
+
 
 Route::get('/contactUs', [Navcontroller::class, 'contact']);
 

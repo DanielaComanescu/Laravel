@@ -24,7 +24,7 @@
             </div>
             <p> We have 12 lessons in one term. The next term starts on the 10th of January until the 10th of April</p>
             <p> The full price for all 12 lessons (onece a week) is £480 </p>
-            <p> If you would like to learn how to swim in a friendly environment and with dedicated teachers, <a href="/connexion">Click on the register button </a></p>
+            <p> If you would like to learn how to swim in a friendly environment and with dedicated teachers, <a href="/connexion">Click on register </a></p>
         </div>
     </div>
 

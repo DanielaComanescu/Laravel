@@ -12,7 +12,7 @@
 
     <p class="text2"> If you would like to learn how to swim in a friendly environment and with dedicated teachers, </p>
     
-    <p class="textLink"> <a href="/connexion"> Click on the register button </a> </p>
+    <p class="textLink"> <a href="/connexion"> Click on the register link </a> </p>
 
 </div>
 @endsection

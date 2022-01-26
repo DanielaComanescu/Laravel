@@ -33,7 +33,7 @@
             </div>
             
             <div class="update">
-                <p>Changes to your details or do you wish to delete your account??</p>
+                <p>Changes to your details ??</p>
 
                 <p> You can update your details here </p>
                 <div class="btn">

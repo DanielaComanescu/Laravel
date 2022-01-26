@@ -19,6 +19,7 @@
 
     <br>
         <h2> You can update your details here </h2>
+        <h3> Easy and fast</h3>
 
             <form action="/updatePOST/{{ auth()->user()->id }}" method="POST">
             @csrf
@@ -34,22 +35,13 @@
                 </div>
                 <br>
                 <br>
+                <br>
 
                 <div class="btn">
                     <button type="submit" class="btn btn-primary"> Save changes</button>
                 </div>
             
                 <br>
-
-                <div class="delete">
-                    <p> Delete your account </p>
-                        <div class="btn">
-                            <form action="/delete/{{ auth()->user()->id }}" method="POST">
-                            @csrf
-                                <button type="submit" class="btn btn-primary"> Delete</button>
-                            </form>
-                        </div>
-                </div>
             </form>
     </div>
 </div>
