@@ -1,3 +1,6 @@
+@media all and (min-width:480px)
+{
+
 .pgRegister {
     min-height: 80vh;
     width: 100%;
@@ -6,6 +9,7 @@
     font-stretch: 100%;
     justify-content: space-evenly;
     align-items: center;
+}
 }
 
 #haveAccount {
@@ -39,3 +43,4 @@ a {
 .btn:hover {
     background-color: #a2a434;
 }
+

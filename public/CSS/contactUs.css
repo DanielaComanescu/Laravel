@@ -1,3 +1,6 @@
+@media all and (min-width:480px) 
+{
+
 .pgContactUs {
     min-height: 91vh;
     width: 100%;
@@ -6,6 +9,7 @@
     flex-direction: row;
     justify-content: center;
     font-stretch: 100%;
+}
 }
 
 .left {
@@ -37,3 +41,4 @@ a {
     font-weight: bold;
     font-size: 20px;
  }
+

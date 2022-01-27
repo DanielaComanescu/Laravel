@@ -1,9 +1,13 @@
+@media all and (min-width:480px)
+{
+
 #pgConnected {
     min-height: 91vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     font-stretch: 100%;
+}
 }
 
 #blockLeft {
@@ -80,3 +84,5 @@ a {
 #phone_number {
     width: 250px;
 }
+
+
