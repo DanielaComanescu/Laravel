@@ -1,22 +1,27 @@
-@media all and (min-width:320px) and (max-width:480px)
-{
+
 
 .pgWelcome {
     min-height: 100vh; 
+
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-}
+
+@media (max-width: 600px) {
+
+  .pgWelcome {
+    font-size:1.25rem;
+    line-height: 1.5;
+  }
+  }
 
 #fond {
-  
- 
     /* Préserve le ratio de l'image */
     height: 800px;
-    width: 1450px;
+    width: 100vw;
     filter: brightness(50%);
       -webkit-filter: brightness(80%);
       -moz-filter: brightness(50%);
@@ -24,6 +29,14 @@
       -ms-filter: brightness(50%);
     opacity: 0.7;
   }
+
+  @media (max-width: 600px) {
+
+    #fond {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
 
   .text{
     position: absolute;
@@ -37,6 +50,15 @@
   
   }
 
+  @media (max-width: 600px) {
+
+    .text {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
+ 
   .text2 {
     position: absolute;
     top: 55%;
@@ -48,6 +70,16 @@
     font-weight: bold;
   }
 
+  @media (max-width: 600px) {
+
+    .text {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
+  
+
   .textLink a {
     position: absolute;
     top: 70%;
@@ -58,10 +90,17 @@
     color: black;
   }
 
+  @media (max-width: 600px) {
+
+    .text {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
   a {
     color: #259ca8; 
     font-weight: bold;
     font-size: 20px;
  }
-
 

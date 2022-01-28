@@ -22,7 +22,7 @@
         <form action="/registerForm" method="POST"> 
         @csrf
             <div class="name">
-                <label for="name"> Your first name and last name </label>
+                <label for="name"> Your name </label>
                     <input type="text" id="name" name="name" required>
             </div>
             <br>
@@ -43,7 +43,7 @@
             <br>
 
             <div class="confirmPassword">
-                <label for="confirmPassword"> Please confirm your password </label>
+                <label for="confirmPassword"> Confirm password </label>
                     <input type="password" id="confirmPassword" name="password_confirmation" required>
             </div>
             <br>

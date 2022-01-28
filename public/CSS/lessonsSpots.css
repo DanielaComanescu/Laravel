@@ -1,5 +1,4 @@
-@media all and (min-width:480px)
-{
+
 
 .pglessonsSpots {
     min-height: 91vh;
@@ -8,7 +7,7 @@
     flex-direction: row;
     font-stretch: 100%;
 }
-}
+
 
 #blockLeft {
     background-color: #259ca8;

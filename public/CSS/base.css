@@ -5,38 +5,69 @@ main {
   align-items: center;
 }
 
+@media (max-width: 600px) {
+
+  main {
+    font-size:1.25rem;
+    line-height: 1.5;
+  }
+  }
+
 body {
-  min-height: 100vh; /*body prend toute la page */
+  max-height: 100vw; /*body prend toute la page */
   margin: 0;
   padding: 0;
 
 }
 
+@media (max-width: 600px) {
+
+  body {
+    font-size:1.25rem;
+    line-height: 1.5;
+  }
+  }
+
   header {
-    min-height: 10vh;
+    min-height: 1vw;
     margin:0px;
     padding: 1vh;
     background-color: #259ca8;
 
   }
 
+  @media (max-width: 600px) {
+
+    header {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
   .parent, .parentFoot {
 
     padding: 7px;
-    height: 50px;
+    min-height: 5vw;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
   }
 
+  @media (max-width: 600px) {
+
+    .parent {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
   .anonymous, .allUsers {
-    width: 900px;
+    width: 90vw;
     display: flex;
     flex-direction: row;
    justify-content: space-around;
   }
-
 
   .parent a {
     display: flex;
@@ -48,9 +79,25 @@ body {
   
   }
 
+  @media (max-width: 600px) {
+
+    .parent a {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
   ul {
     list-style: none;
   }
+
+  @media (max-width: 600px) {
+
+    ul {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
 
   a {
     color: black;
@@ -58,8 +105,16 @@ body {
     font-size: 20px;
   }
 
+  @media (max-width: 600px) {
+
+    a {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
   footer {
-  min-height: 1vh;
+  min-height: 1vw;
   margin:0px;
   padding: 1vh;
   background-color: cornsilk;

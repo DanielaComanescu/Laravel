@@ -1,6 +1,3 @@
-@media all and (min-width:480px) 
-{
-
 .pgPrices {
     min-height: 91vh;
     width: 100%;
@@ -10,26 +7,82 @@
     justify-content: center;
     font-stretch: 100%;
 }
-}
+
+@media (max-width: 600px) {
+
+    .pgPrices {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
 
 .left {
     min-height: 91vh;
     width: 60%;
 }
 
+@media (max-width: 600px) {
+
+    .left {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
 .right {
     min-height: 91vh;
     width: 40%;
 }
 
+@media (max-width: 600px) {
+
+    .right {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
+@media (max-width: 600px) {
+
+    h2 {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
+    @media (max-width: 600px) {
+
+        p {
+          font-size:1.25rem;
+          line-height: 1.5;
+        }
+        }
+
+    
 #pool {
     height: 400px;
     width: 700px;
 }
 
+@media (max-width: 600px) {
+
+    #pool {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
 #orar {
     height: 55px;
 }
+
+@media (max-width: 600px) {
+
+    #orar {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
 
 .orar {
     display: flex;
@@ -37,11 +90,27 @@
     align-items: flex-start;
 }
 
+@media (max-width: 600px) {
+
+    .orar {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
+
 .pColumn {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
+@media (max-width: 600px) {
+
+    .pColumn {
+      font-size:1.25rem;
+      line-height: 1.5;
+    }
+    }
 
 #cost {
     height: 60px;
